@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #e4bdc7 !important;
+    font-family: cursive!important;
+    
+}
+
+#logo{
+    width: 5%;
+    height: 100px;
+    display: flex;
+}
+
+.img-redimensionada {
+    max-height: 600px;
+    width:max-content;
+    display: flex;
+  }
+
+  #produtos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #bannerProdutos{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    
+    
+  }
+
+
+  .opcoes{   
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 200px;
+    
+  }
+
+  .opcoes img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    transition: 3s;
+    cursor: pointer;
+  }
+
+  
