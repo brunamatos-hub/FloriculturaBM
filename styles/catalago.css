@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #e4bdc7 !important;
+    font-family: cursive!important;
+    
+}
+
+#logo{
+    width: 5%;
+    height: 100px;
+    display: flex;
+}
+
+.img-redimensionada {
+    max-height: 600px;
+    width:max-content;
+    display: flex;
+}
+
+.tittle-container{
+    clear: both;
+}
+
+.m-top{
+    margin-top: 20px;
+}
+
+.row{
+margin-right: -15px;
+margin-left: -15px;
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate ;
+}
+
+h1,h2{
+        text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Oswald";
+    letter-spacing: 2px;
+}
+
+.title, .subtitle {
+    margin: 10px 0 30px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer{
+  width: 100%;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: pink;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #e4bdc7 !important;
+    font-family: cursive!important;
+    
+}
+
+#logo{
+    width: 5%;
+    height: 100px;
+    display: flex;
+}
+
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(imagens/buquê\ de\ noiva\ b.jpg);
+}
+
+input,textarea{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button{
+    background-color: pink;
+    width: 200px;
+    padding: 10px;
+    color: white;
+
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+footer{
+  width: 100%;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: pink;
+}
